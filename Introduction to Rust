@@ -1,0 +1,28 @@
+ Discord - Latency Spikes with Read States Services.
+
+Rust is pure Binary. Can’t run on ARM processor.
+
+Rust is reliable, not C:
+------------------------
+
+Adding max value to 1 in C and Rust : (Check the Assembly code)
+a)	C will give -ve number – as it does not have any checks
+b)	Rust will throw an error for overflow.
+
+Divide by 0: 
+a)	C will give some error – stderr
+b)	Rust will properly define the error message.
+
+Rust Ownership:
+1.	In C we have to explicity free the memory
+2.	In rust we have inbuild ownership.
+ 
+But now if we want ownership back then we use references.
+Mutable References:  just add mut variable allow the data to change in reference.
+
+Borrow Checker:
+
+Dangling Pointers:
+
+
+
